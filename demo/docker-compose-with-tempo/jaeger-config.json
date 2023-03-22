@@ -1,0 +1,12 @@
+{
+  "service_name": "loki-gateway",
+  "diabled": false,
+  "reporter": {
+    "logSpans": true,
+    "localAgentHostPort": "jaeger-agent:6831"
+  },
+  "sampler": {
+    "type": "const",
+    "param": "100"
+  }
+}
